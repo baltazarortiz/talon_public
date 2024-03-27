@@ -1,5 +1,10 @@
-not mode: sleep
 -
+
+parrot sleep:
+    mode.disable("noise")
+
+parrot wake:
+    mode.enable("noise")
 
 #parrot(click):
 #	print("click")
@@ -11,7 +16,8 @@ not mode: sleep
 #parrot(wind):
 #	app.notify("wind")
 
-parrot(click): core.repeat_phrase(1)
+parrot(click):
+    core.repeat_phrase(1)
 
 #parrot(teeth):
 #    mouse_click(0)
