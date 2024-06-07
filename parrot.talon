@@ -1,5 +1,5 @@
+not mode: sleep
 -
-
 parrot sleep:
     mode.disable("noise")
 
