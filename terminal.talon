@@ -27,3 +27,5 @@ term complete:
 
 term cancel:
     key('ctrl-c')
+
+katie home: user.terminal_change_directory("~/")
